@@ -1,0 +1,15 @@
+@import "theme";
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.child {
+  flex-grow: 1;
+}
+
+.child-lg {
+  flex-grow: $flex-lg;
+}

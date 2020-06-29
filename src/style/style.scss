@@ -1,3 +1,10 @@
-h1 {
-  color: red;
+@import "theme";
+@import "flex";
+
+body {
+  font-family: "CMU Serif", serif;
+}
+
+#sideBar {
+  min-width: $side-bar-min-width;
 }
